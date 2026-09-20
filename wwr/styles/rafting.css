@@ -16,6 +16,7 @@
 body {
   font-family: var(--body-font);
   color: var(--accent1-color);
+  background-color: var(--accent2-color);
 }
 
 header, main, footer {
@@ -38,6 +39,10 @@ h1, h2 {
 nav, p, section, article {
   margin: 16px;
   padding: 8px;
+}
+
+nav a {
+  color: var(--secondary-color);
 }
 
 nav ul {
@@ -72,6 +77,16 @@ nav ul {
   opacity: 0.85;
   background-color: var(--accent1-color);
   color: #ffffff;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 16px;
+  border-radius: 8px;
 }
 
 .hero article img {
