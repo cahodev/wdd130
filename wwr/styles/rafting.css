@@ -23,6 +23,13 @@ header, main, footer {
   margin: 0 auto;
 }
 
+header img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
 h1, h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
