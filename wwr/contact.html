@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - White Water Rafting Company</title>
+  <meta name="description" content="Get in touch with White Water Rafting Company. Contact details, location map, customer service form, and employee profiles.">
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Rafting Company Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="company-info">
+      <h1>White Water Rafting Company</h1>
+      <p>123 Main River Street<br>Kolob, California</p>
+      <p>+1 999 999 9999</p>
+      <p>info@whitewater.com</p>
+    </section>
+
+    <div class="contact-grid">
+      <section class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.83543450937!2d-122.4194155!3d37.7749295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580649fd91ed9%3A0x6a1a704e6e66e85e!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1634567890123" 
+          width="600" 
+          height="450" 
+          allowfullscreen="" 
+          loading="lazy" 
+          title="Company Location Map">
+        </iframe>
+      </section>
+      
+      <form action="#" method="post" class="contact-form">
+        <div class="form-item">
+          <label for="username">Name</label>
+          <input type="text" id="username" name="username" placeholder="Your Name" required>
+        </div>
+
+        <div class="form-item">
+          <label for="useremail">Email</label>
+          <input type="email" id="useremail" name="useremail" placeholder="Your Email" required>
+        </div>
+
+        <fieldset class="radio-group">
+          <legend>Message Purpose</legend>
+          <label>
+            <input type="radio" id="general" name="purpose" value="general" checked> General Inquiry
+          </label>
+          <label>
+            <input type="radio" id="reservation" name="purpose" value="reservation"> Reservation Question
+          </label>
+          <label>
+            <input type="radio" id="suggestion" name="purpose" value="suggestion"> Website Suggestion
+          </label>
+        </fieldset>
+
+        <div class="form-item">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Type here..." required></textarea>
+        </div>
+
+        <div class="form-item checkbox-item">
+          <label>
+            <input type="checkbox" id="newsletter" name="newsletter"> Please subscribe me to the monthly newsletter
+          </label>
+        </div>
+
+        <button type="submit" class="submit-btn">Get in Touch!</button>
+      </form>
+    </div>
+
+    <section class="employee-section">
+      <h2>We Are Here to Serve You</h2>
+      <div class="employee-grid">
+        <figure>
+          <img src="images/employee1.jpg" alt="Jane Doe - Operations Manager">
+          <figcaption>
+            <strong>Jane Doe</strong><br>Operations Manager
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee2.jpg" alt="John Smith - Head River Guide">
+          <figcaption>
+            <strong>John Smith</strong><br>Head River Guide
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee3.jpg" alt="Emily White - Customer Service Lead">
+          <figcaption>
+            <strong>Emily White</strong><br>Customer Service Lead
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 White Water Rafting Company | Christian Herrera</p>
+    <div class="social-links">
+      <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook Icon"></a>
+      <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter Icon"></a>
+      <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram Icon"></a>
+    </div>
+  </footer>
+</body>
+</html>
