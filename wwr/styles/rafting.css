@@ -25,8 +25,8 @@ header, main, footer {
 }
 
 header {
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 10px 0;
 }
@@ -37,11 +37,18 @@ header img {
   display: block;
 }
 
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
 header nav ul {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
   gap: 15px;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
